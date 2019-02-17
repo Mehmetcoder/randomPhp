@@ -1,4 +1,4 @@
-#Php Random Class#
+# Php Random Class #
 
 Generates random things
 
