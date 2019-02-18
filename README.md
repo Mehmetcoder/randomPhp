@@ -7,3 +7,4 @@ Generates random things
 3. Color
 4. Date
 5. Letter
+6. Image
