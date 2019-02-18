@@ -5,7 +5,7 @@ require_once 'random.class.php';
 
 $random = new Random();
 
-echo 'Random things that can produce:<br><code>';
+echo '<h1>Random things that can produce:</h1><code>';
 
 echo 'Random number: ' . $random->number();
 echo '<br>';
@@ -17,6 +17,7 @@ echo '<br>';
 echo 'Random date: ' . $random->date('Y-m-d H:i:d');
 echo '<br>';
 echo 'Random letter: ' . $random->letter();
-
+echo '<br>';
+echo 'Random image:<br><img src="data:image/png;base64,' . base64_encode($random->image()) . '">';
 echo '</code>';
 ?>
